@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Eduford University | Course</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="subheader">
+        <nav>
+            <a href="index.html"><img src="./images/logo.png"></a>
+            <div class="nav-links" id="navLinks">
+                <img src="./images/close-icon.jpg" class="close" onclick="hidemenu()">
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="course.html">COURSE</a></li>
+                    <li><a href="blog.html">BLOG</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                </ul>
+            </div>
+            <img src="./images/Hamburger_icon.svg.png" class="menu" onclick="showmenu()">
+        </nav>
+        <h1>Our Courses</h1>
+    </header>
+
+    <!-- Course -->
+    <section class="course">
+        <h2>Courses We Offer</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+        <div class="row">
+            <div class="course-col">
+                <h3>Intermediate</h3>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Delectus dolor eius quasi veritatis dolores, officia nihil hic maiores rem recusandae voluptatem vel animi. Accusantium, laudantium repellendus modi tenetur illo esse?</p>
+            </div>
+            <div class="course-col">
+                <h3>Degree</h3>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Delectus dolor eius quasi veritatis dolores, officia nihil hic maiores rem recusandae voluptatem vel animi. Accusantium, laudantium repellendus modi tenetur illo esse?</p>
+            </div>
+            <div class="course-col">
+                <h3>Post Graduation</h3>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Delectus dolor eius quasi veritatis dolores, officia nihil hic maiores rem recusandae voluptatem vel animi. Accusantium, laudantium repellendus modi tenetur illo esse?</p>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <p>Eduford University, Copywright &copy;2022</p>
+    </footer>
+   
+
+    <!-- Javascript -->
+    <script>
+        var navLinks = document.getElementById("navLinks");
+        function showmenu(){
+            navLinks.style.right = "0";
+
+        }
+        function hidemenu(){
+            navLinks.style.right = "-200px";
+            
+        }
+    </script>
+
+</body>
+</html>

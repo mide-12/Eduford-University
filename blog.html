@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Eduford University | Blog</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="subheader">
+        <nav>
+            <a href="index.html"><img src="./images/logo.png"></a>
+            <div class="nav-links" id="navLinks">
+                <img src="./images/close-icon.jpg" class="close" onclick="hidemenu()">
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="course.html">COURSE</a></li>
+                    <li><a href="blog.html">BLOG</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                </ul>
+            </div>
+            <img src="./images/Hamburger_icon.svg.png" class="menu" onclick="showmenu()">
+        </nav>
+        <h1>Our Certificate & Online Programs For 2022</h1>
+    </header>
+
+        <!-- Blog page content -->
+        <section class="blog-content">
+            <div class="row">
+                <div class="blog-left">
+                    <img src="./images/certificate.jpg">
+                    <h2>Our Certificate & Online Programs For 2022</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem rerum dolorum, voluptatum deserunt velit obcaecati! Sapiente laborum itaque fugiat, architecto cum error doloribus non nulla, veniam, nemo dicta rerum iste?</p>
+                    <br>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Laborum reprehenderit esse fugiat hic, ducimus error soluta sequi at deserunt ratione velit quidem tempora sed labore facilis odit ab dignissimos nulla.Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sapiente repellat autem, aliquam enim iure voluptas odio labore quae laboriosam vero ab reiciendis animi amet. Est libero deleniti rerum iusto unde.</p>
+                    <br>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sapiente repellat autem, aliquam enim iure voluptas odio labore quae laboriosam vero ab reiciendis animi amet. Est libero deleniti rerum iusto unde.</p>
+                    <br>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptates libero laborum officia itaque labore! Iure unde voluptate magni inventore, maiores quam blanditiis beatae ipsam, exercitationem, nesciunt amet ipsa a reprehenderit?</p>
+                </div>
+                <div class="blog-right">
+                    <h2>Post Categories</h2>
+                    <div>
+                        <span>Business Analytics</span>
+                        <span>22</span>
+                    </div>
+                    <div>
+                        <span>Data Science</span>
+                        <span>24</span>
+                    </div>
+                    <div>
+                        <span>Machine Learning</span>
+                        <span>26</span>
+                    </div>
+                    <div>
+                        <span>Computer Science</span>
+                        <span>28</span>
+                    </div>
+                    <div>
+                        <span>AutoCAD</span>
+                        <span>30</span>
+                    </div>
+                    <div>
+                        <span>Journalism</span>
+                        <span>32</span>
+                    </div>
+                    <div>
+                        <span>Commerce</span>
+                        <span>34</span>
+                    </div>
+                </div>
+            </div>
+            <div class="comment-box">
+                <h2>Leave a comment</h2>
+                <form class="comment-form">
+                    <input type="text" placeholder="Enter Name">
+                    <input type="email" placeholder="Enter Email">
+                    <textarea rows="5" placeholder="Your Comment"></textarea>
+                    <button type="submit" class="hero-btn red-btn">POST COMMENT</button>
+                </form>
+            </div>
+
+
+        </section>
+    
+        <footer>
+            <p>Eduford University, Copywright &copy;2022</p>
+        </footer>
+   
+    <!-- Javascript -->
+    <script>
+        var navLinks = document.getElementById("navLinks");
+        function showmenu(){
+            navLinks.style.right = "0";
+
+        }
+        function hidemenu(){
+            navLinks.style.right = "-200px";
+            
+        }
+    </script>
+
+</body>
+</html>
